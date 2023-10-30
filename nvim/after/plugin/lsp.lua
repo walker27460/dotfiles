@@ -11,7 +11,7 @@ mason_lspconfig.setup {
             local lspconfig = require("lspconfig")
             lspconfig[server_name].setup {
                 on_attach = function(client, bufnr)
-                    vim.keymap.set("n", "K", vim.lsp.buf.hover, { bufnr = bufnr, noremap = true })
+                    vim.keymap.set("n", "K", vim.lsp.buf.hover, { buffer = bufnr, noremap = true })
                 end,
                 capabilities = coq.lsp_ensure_capabilities(),
             }

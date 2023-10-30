@@ -12,7 +12,8 @@ local P = {
     "neovim/nvim-lspconfig",
     "williamboman/mason.nvim",
     "williamboman/mason-lspconfig.nvim",
-    "nvim-lualine/lualine.nvim"
+    "nvim-lualine/lualine.nvim",
+    "kdheepak/tabline.nvim"
 }
 
 return P

@@ -1,6 +1,13 @@
 local statusline = require("lualine")
 statusline.setup {
-    tabline = {
-        lualine_a = { "filename" }
+    options = {
+        globalstatus = true,
+    },
+}
+
+local tabline = require("tabline")
+tabline.setup {
+    options = {
+        show_tabs_always = true
     }
 }
