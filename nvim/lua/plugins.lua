@@ -1,5 +1,5 @@
 local P = {
-    { "folke/lazy.nvim", branch = "stable" },
+    { "folke/lazy.nvim", branch = "main" },
     {
         "ms-jpq/coq_nvim", 
         branch = "coq",
@@ -13,7 +13,8 @@ local P = {
     "williamboman/mason.nvim",
     "williamboman/mason-lspconfig.nvim",
     "nvim-lualine/lualine.nvim",
-    "kdheepak/tabline.nvim"
+    "kdheepak/tabline.nvim",
+    "nvim-telescope/telescope.nvim"
 }
 
 return P
