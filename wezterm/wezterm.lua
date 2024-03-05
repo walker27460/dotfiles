@@ -1,11 +1,14 @@
 local wezterm = require("wezterm")
 
-local Config = {}
+local config = {}
 
-Config.font = wezterm.font "Hack Nerd Font Mono"
+config.font = wezterm.font("0xProto Nerd Font Mono")
+config.font_size = 13
+config.window_background_opacity = 0.8
+config.color_scheme = "Solarized Dark Higher Contrast"
+
 if string.match(wezterm.target_triple, "msvc") then
-Config.default_prog = { "cmd.exe" }
+	config.default_prog = { "cmd.exe" }
 end
 
-return Config
-
+return config
