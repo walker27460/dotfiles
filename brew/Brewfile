@@ -1,0 +1,4 @@
+brew "neovim"
+brew "fish"
+cask "keycastr"
+cask "discord"
