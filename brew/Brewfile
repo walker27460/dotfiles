@@ -1,4 +1,13 @@
 brew "neovim"
 brew "fish"
+brew "tmux"
+
+cask "font-0xproto-nerd-font"
 cask "keycastr"
 cask "discord"
+cask "ableton-live-suite"
+cask "prismlauncher"
+cask "ghostty"
+
+
+
